@@ -3,9 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <link ref="stylesheet" type="text/css" href="https://github.com/RachanaMiryala/coursera-assignments/blob/gh-pages/module2/a.css"> -->
 <title>COURSERA ASSIGNMENT</title>
 <style>
+
+/********** Base styles **********/
 * {
   box-sizing: border-box;
 }
@@ -13,15 +14,15 @@ h1 {
   margin-bottom: 15px;
 }
 
-p {
+.p1, .p2,.p3 {
   border: 1px solid black;
-  background-color: blue;
+  background-color: #00c6ff;
   width: 90%;
   height: 150px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
-  color: white;
+  color: #554c46;
 }
 
 /* Simple Responsive Framework. */
@@ -159,18 +160,16 @@ p {
     width: 100%;
   }
 }
-
 </style>
 </head>
-  
 <body>
 <h1></h1>
 
 <div class="row">
-  <div class="col-lg-3 col-md-6 col-st-12" style="text-align:right"><p>PIZZA</p></div>
-  <div class="col-lg-3 col-md-6 col-st-12" style="text-align:right"><p>BURGER</p></div>
-  <div class="col-lg-3 col-md-12 col-st-12" style="text-align:right"><p>PASTA</p></div>
+  <div class="col-lg-3 col-md-6 col-st-12"><p style="text-align:right" class="p1">PIZZA <br> <br> Pizza is a savory dish of Italian origin consisting of a usually round</p></div>
+  <div class="col-lg-3 col-md-6 col-st-12"><p style="text-align:right" class="p2">BURGER <br> <br> The hamburger, often abbreviated as "burger", is named after the German city of Hamburg, and unrelated to ham</p></div>
+  <div class="col-lg-3 col-md-12 col-st-12"><p style="text-align:right" class="p3">PASTA <br> <br>  Pasta is an Italian type of food typically made from an unleavened dough of wheat flour mixed </p></div>
 </div>
 
 </body>
-</html>
+</html> 
