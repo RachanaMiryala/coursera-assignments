@@ -3,9 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="https://github.com/RachanaMiryala/coursera-assignments/blob/gh-pages/css/a.css">
 <title>COURSERA ASSIGNMENT</title>
- <style>
+<style>
 
 /********** Base styles **********/
 * {
@@ -15,7 +14,7 @@ h1 {
   margin-bottom: 30px;
 }
 
- p {
+ .box {
   margin:10px;
   padding:10px;
   border: 1px solid black;
@@ -33,6 +32,15 @@ h1 {
   width: 100%;
   background-color:red;
   margin:10px 30px 30px 30px;
+}
+.box div{
+ /* position:absolute;
+  top:0;
+  right:0;
+  background-color:red;
+ width:80px;
+ text-align:center;*/
+ margin-bottom:30px;
 }
 
 /********** Large devices only **********/
@@ -165,15 +173,14 @@ h1 {
   }
 }
 </style>
- 
 </head>
 <body>
 <h1 style="text-align:center"> OUR MENU </h1>
 
 <div class="row">
-  <div class="col-lg-3 col-md-6 col-st-12"><p style="text-align:right">PIZZA <br> <br> Pizza is a savory dish of Italian origin consisting of a usually round</p></div>
-  <div class="col-lg-3 col-md-6 col-st-12"><p style="text-align:right">BURGER <br> <br> The hamburger, often abbreviated as "burger", is named after the German city of Hamburg, and unrelated to ham</p></div>
-  <div class="col-lg-3 col-md-12 col-st-12"><p style="text-align:right">PASTA <br> <br>  Pasta is an Italian type of food typically made from an unleavened dough of wheat flour mixed </p></div>
+  <div class="col-lg-3 col-md-6 col-st-12 box" style="margin-right:10px"> <div style="text-align:right">PIZZA </div>Pizza is a savory dish of Italian origin consisting of a usually round</div>
+  <div class="col-lg-3 col-md-6 col-st-12 box" style="margin-right:10px"> <div style="text-align:right">BURGER </div> The hamburger, often abbreviated as "burger", is named after the German city of Hamburg, and unrelated to ham</div>
+  <div class="col-lg-3 col-md-12 col-st-12 box" style="margin-right:10px"> <div style="text-align:right">PASTA </div> Pasta is an Italian type of food typically made from an unleavened dough of wheat flour mixed </div></div>
 </div>
 
 </body>
