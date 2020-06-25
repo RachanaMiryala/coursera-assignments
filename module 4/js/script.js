@@ -1,3 +1,4 @@
+console.log("working");
 var names=['John','joe','Roy','Tina'];
 for(name=0 ; name<names.length ; name++) {
 if(names[name].charAt(0)=='j' || names[name].charAt(0)=='J') {
