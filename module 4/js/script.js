@@ -1,5 +1,4 @@
-var names=["John","joe","Roy","Tina"];
-console.log(names[0]);
+var names=['John','joe','Roy','Tina'];
 for(name=0 ; name<names.length ; name++) {
 if(names[name].charAt(0)=='j' || names[name].charAt(0)=='J') {
 console.log("Goodbye" + names[name]);
